@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Red+Hat+Display&family=Sacramento&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Red+Hat+Display&family=Sacramento&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Merriweather&family=Red+Hat+Display&family=Sacramento&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Merriweather&family=Red+Hat+Display&family=Sacramento&display=swap);
 
-:root{
+:root {
     --very-dark-blue: hsl(233, 47%, 7%);
-    --dark-desaturated--blue:hsl(244, 38%, 16%);
-    --soft-violet:hsl(277, 64%, 61%);
-    --white--:hsl(0, 0%, 100%);
-    --slightly-transparent--white:hsla(0, 0%, 100%, 0.75);
-    --slightly-transparent-white:hsla(0, 0%, 100%, 0.6);
-    
+    --dark-desaturated--blue: hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+    --white--: hsl(0, 0%, 100%);
+    --slightly-transparent--white: hsla(0, 0%, 100%, 0.75);
+    --slightly-transparent-white: hsla(0, 0%, 100%, 0.6)
 }
-body{
+
+body {
     background-color: var(--very-dark-blue);
     min-height: 100vh;
     font-size: 15px;
     text-decoration: none;
     box-sizing: border-box;
     justify-content: space-between;
-    font-family: 'Inter', sans-serif;
-
+    font-family: Inter, sans-serif
 }
-.header-img  {
-    background-image: url("images/image-header-desktop.jpg");
+
+.header-img {
+    background-image: url(images/image-header-desktop.jpg);
     height: 100%;
     width: 100%;
     border-radius: 0 5px 5px 0;
@@ -29,100 +29,86 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-blend-mode: multiply;
-
-   /* filter: opacity(0.3) drop-shadow(0 0 0 var(--soft-violet)); */
-    
+    background-blend-mode: multiply
 }
 
-h1{
-    font-family:'Lexend Deca', sans-serif;
-    font-weight:700;
+h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
     margin-top: 60px;
     margin-bottom: 50px;
-    margin-left:60px;
-    margin-right: 130px;
+    margin-left: 60px;
+    margin-right: 130px
 }
 
-p{
+p {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     position: relative;
-    margin:0px 60px;
+    margin: 0 60px;
     bottom: 10px;
-    line-height: 30px;
+    line-height: 30px
 }
-h2{
+
+h2 {
     font-family: 'Lexend Deca', sans-serif;
-    font-weight: 700;
-    /* justify-content: space-between; */
-    
-
+    font-weight: 700
 }
-.main-container{
-    /* margin: 0 auto;
-  width: 85%;
-  text-align: center; */
-    margin:0 auto;
-    width:85%;
-    padding-top: 160px;
+
+.main-container {
+    max-height: 445px;
+    max-width: 1085px;
+    margin: 0 auto;
+    padding: 6rem;
     display: flex;
+    
 }
 
-.right-container{
+.right-container {
     text-align: center;
-    /* padding:10px; */
     display: block;
-    width:50%;
-
-    
+    width: 50%
 }
-.left-container{
+
+.left-container {
     background-color: var(--dark-desaturated--blue);
-    font-size: 15px;;
-    font-family: 'Inter', sans-serif;
-    color:white;
-    flex-direction:row; 
-    width:50%;
-    border-radius: 5px 0 0 5px;
-
+    font-size: 15px;
+    font-family: Inter, sans-serif;
+    color: #fff;
+    flex-direction: row;
+    width: 50%;
+    border-radius: 5px 0 0 5px
 }
 
-.info{
+.info {
     position: relative;
-    padding: 0px 50px;
-    right: 50px;
-    
+    padding: 0 50px;
+    right: 50px
 }
-.h2-buttom{
-    font-family:'Lexend Deca', sans-serif;
+
+.h2-buttom {
+    font-family: 'Lexend Deca', sans-serif;
     display: flex;
     width: 50%;
     justify-content: space-between;
     text-align: left;
     padding-top: 2rem;
-    padding-bottom: 3rem;
-    
+    padding-bottom: 3rem
 }
 
-.stats-group{
+.stats-group {
     margin-left: 4rem;
-    width: 70px;
-    
-
+    width: 70px
 }
-.stats-group p{
-    position:relative;
+
+.stats-group p {
+    position: relative;
     text-transform: uppercase;
-    font-size: 0.7rem;
+    font-size: .7rem;
     right: 60px;
-    letter-spacing:2px;
-
+    letter-spacing: 2px
 }
 
-
-span{
+span {
     color: var(--soft-violet)
 }
-
-
