@@ -12,12 +12,14 @@
 
 body {
     background-color: var(--very-dark-blue);
+    width: 100%;    
     min-height: 100vh;
     font-size: 15px;
+    font-family: Inter, sans-serif;
     text-decoration: none;
     box-sizing: border-box;
-    justify-content: space-between;
-    font-family: Inter, sans-serif
+    justify-content: center;
+    display: flex;
 }
 
 .header-img {
@@ -61,7 +63,11 @@ h2 {
     margin: 0 auto;
     padding: 6rem;
     display: flex;
-    
+    width: 100%;
+    height: fit-content;
+    border-radius: 15px;
+    padding: 12% 10%;
+
 }
 
 .right-container {
