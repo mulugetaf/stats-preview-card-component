@@ -103,7 +103,9 @@ h2 {
     justify-content: space-between;
     text-align: left;
     padding-top: 2rem;
-    padding-bottom: 3rem
+    padding-bottom: 3rem;
+    text-transform: uppercase;
+
 }
 
 .stats-group {
