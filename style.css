@@ -38,7 +38,10 @@ body{
 h1{
     font-family:'Lexend Deca', sans-serif;
     font-weight:700;
-    margin:50px
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left:60px;
+    margin-right: 130px;
 }
 
 p{
@@ -60,8 +63,8 @@ h2{
     /* margin: 0 auto;
   width: 85%;
   text-align: center; */
-    margin:auto;
-    width:70%;
+    margin:0 auto;
+    width:85%;
     padding-top: 160px;
     display: flex;
 }
@@ -86,31 +89,31 @@ h2{
 }
 
 .info{
-    padding-top: 0px;
-    gap: 10000px;
-    /* margin:auto; */
+    position: relative;
+    padding: 0px 50px;
+    right: 50px;
+    
 }
 .h2-buttom{
     font-family:'Lexend Deca', sans-serif;
     display: flex;
     width: 50%;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: left;
     padding-top: 2rem;
     padding-bottom: 3rem;
-    padding-left: 3rem;
+    
 }
 
 .stats-group{
     margin-left: 4rem;
-    width: 40px;
-
+    width: 70px;
+    
 
 }
 .stats-group p{
     position:relative;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
     font-size: 0.7rem;
     right: 60px;
     letter-spacing:2px;
