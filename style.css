@@ -62,7 +62,7 @@ h2{
   text-align: center; */
     margin:auto;
     width:70%;
-    padding-top: 125px;
+    padding-top: 160px;
     display: flex;
 }
 
@@ -99,7 +99,6 @@ h2{
     padding-top: 2rem;
     padding-bottom: 3rem;
     padding-left: 3rem;
-    letter-spacing:1px;
 }
 
 .stats-group{
